@@ -1,0 +1,69 @@
+{
+  "name": "gatsby-theme-midnight-markdown",
+  "private": true,
+  "description": "A personal development blog powered by Gatsby, Markdown and Netlify",
+  "version": "0.1.0",
+  "author": "J.G Singleton <jessesingleton441@gmail.com>",
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.5",
+    "@mdx-js/react": "^1.6.5",
+    "babel-plugin-styled-components": "^1.10.7",
+    "dracula-prism": "^1.2.1",
+    "gatsby": "^2.23.3",
+    "gatsby-image": "^2.2.41",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-manifest": "^2.2.42",
+    "gatsby-plugin-mdx": "^1.2.15",
+    "gatsby-plugin-offline": "^3.0.35",
+    "gatsby-plugin-preact": "^4.0.3",
+    "gatsby-plugin-react-helmet": "^3.1.22",
+    "gatsby-plugin-sharp": "^2.4.5",
+    "gatsby-plugin-styled-components": "^3.1.19",
+    "gatsby-remark-copy-linked-files": "^2.1.37",
+    "gatsby-remark-images": "^3.1.44",
+    "gatsby-remark-prismjs": "^3.3.31",
+    "gatsby-remark-responsive-iframe": "^2.2.32",
+    "gatsby-remark-smartypants": "^2.1.21",
+    "gatsby-source-filesystem": "^2.1.48",
+    "gatsby-transformer-sharp": "^2.3.16",
+    "preact": "^10.4.4",
+    "prismjs": "^1.19.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^5.1.3",
+    "react-icons": "^3.10.0",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react": "^7.20.0",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.8",
+    "prettier": "^1.19.1"
+  },
+  "keywords": [
+    "gatsby",
+    "MDX",
+    "preact"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby clean && gatsby build",
+    "develop": "gatsby clean && gatsby develop",
+    "lint": "eslint ./src --ext .js --cache",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "serve": "gatsby serve"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx}": [
+      "eslint ./src --ext .js --cache"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}

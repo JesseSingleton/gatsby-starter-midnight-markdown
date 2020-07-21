@@ -1,0 +1,44 @@
+---
+title: Sample Post With Code
+date: '2020-02-24T22:12:03.284Z'
+description: A sample post for this blog with syntax highlighting and inline react components
+tags: ['#Sample', '#Markdown', '#Post']
+---
+
+import Underlined from '../../../src/components/Underlined.js';
+
+A sample blog post with embedded react components and code syntax highlighting with <Underlined href={'https://prismjs.com/'} text={'Prism'} />
+
+## Sample code
+
+Create a directory and `.yml` workflow file. This will contain the Github Action Job Defintion (a.k.a workflow instructions).
+
+```powershell
+mkdir .github/workflows
+cd .github/workflows
+New-Item main.yml
+```
+
+Once you've created `main.yml` add the following code.
+
+```yml
+name: CI
+
+on: [push]
+
+jobs:
+  test:
+    name: Builds and Passes on ${{ matrix.node }} and ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        node: [12]
+        os: [ubuntu-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use node ${{ matrix.node }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node }}
+          registry-url: https://registry.npmjs.org
+```
