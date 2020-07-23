@@ -4,7 +4,13 @@
 
 A gatsby starter blog with MDX, Preact and Prism.
 
+Home Screen
+
 ![Home](blog-home-screen.png)
+
+Blog Post
+
+![Post](blog-post-example.png)
 
 ## 🚀 Quick start
 
