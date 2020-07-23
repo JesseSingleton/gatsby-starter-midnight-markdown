@@ -3,8 +3,7 @@ module.exports = {
   siteMetadata: {
     title: 'Midnight Markdown',
     author: 'Jesse George Singleton',
-    description:
-      'A personal development blog powered by Gatsby, MDX and Preact',
+    description: 'A personal blog powered by Gatsby, MDX and Preact',
     social: {
       github: 'https://github.com/',
       linkedin: 'https://www.linkedin.com/'
