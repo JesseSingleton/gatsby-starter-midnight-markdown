@@ -2,7 +2,7 @@
   "name": "gatsby-starter-midnight-markdown",
   "private": true,
   "description": "A personal development blog powered by Gatsby, Markdown and Netlify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "J.G Singleton <jessesingleton441@gmail.com>",
   "dependencies": {
     "@mdx-js/mdx": "^1.6.5",
