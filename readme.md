@@ -6,7 +6,7 @@ A gatsby starter blog with MDX, Preact and Prism.
 
 ## Demo
 
-https://tender-meninsky-4a0db3.netlify.app/
+[CLICK ME](https://tender-meninsky-4a0db3.netlify.app/)
 
 ## Screens
 
