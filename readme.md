@@ -4,6 +4,12 @@
 
 A gatsby starter blog with MDX, Preact and Prism.
 
+## Demo
+
+https://tender-meninsky-4a0db3.netlify.app/
+
+## Screens
+
 Home Screen
 
 ![Home](blog-home-screen.png)
@@ -76,7 +82,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-blog)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/JesseSingleton/gatsby-starter-midnight-markdown)
 
 ## 💫 Powered By
 
